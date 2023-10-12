@@ -7,3 +7,19 @@ Content-Type: application/json
   "username": "vlimass",
   "password": "12345"
 }
+
+###
+
+# @name task
+POST http://localhost:8080/tasks/
+Content-Type: application/json
+Authorization: Basic vlimass 12345
+
+{
+  "description": "Terminar o trabalho o mais rápido possível",
+  "title": "Trabalho do Paixão",
+  "priority": "ALTA",
+  "startAt": "2023-10-13T09:00:00",
+  "endAt": "2023-10-13T12:00:00",
+  "idUser": "8f3517fd-20f6-4ed7-86d4-96dd3718daa4" 
+}
