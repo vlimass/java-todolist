@@ -1,5 +1,5 @@
 # @name user
-POST http://localhost:8080/users/
+POST https://todolist-rocket-z74s.onrender.com/users/
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 ###
 
 # @name task
-POST http://localhost:8080/tasks/
+POST https://todolist-rocket-z74s.onrender.com/tasks/
 Content-Type: application/json
 Authorization: Basic vlimass 12345
 
@@ -25,13 +25,13 @@ Authorization: Basic vlimass 12345
 
 ###
 
-GET http://localhost:8080/tasks/
+GET https://todolist-rocket-z74s.onrender.com/tasks/
 Content-Type: application/json
 Authorization: Basic vlimass 12345
 
 ###
 
-PUT http://localhost:8080/tasks/98a39c2a-0bd3-46f2-8504-2c386985e5a9
+PUT https://todolist-rocket-z74s.onrender.com/tasks/2e18250b-71c4-41f8-a897-60dec4204500
 Content-Type: application/json
 Authorization: Basic vlimass 12345
 
