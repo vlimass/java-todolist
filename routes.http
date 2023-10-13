@@ -19,8 +19,8 @@ Authorization: Basic vlimass 12345
   "description": "Terminar o trabalho o mais rápido possível",
   "title": "Trabalho do Paixão",
   "priority": "ALTA",
-  "startAt": "2023-10-13T11:00:00",
-  "endAt": "2023-10-13T12:00:00" 
+  "startAt": "2023-10-21T11:00:00",
+  "endAt": "2023-10-21T12:00:00" 
 }
 
 ###
@@ -31,10 +31,11 @@ Authorization: Basic vlimass 12345
 
 ###
 
-PUT http://localhost:8080/tasks/97c28329-c89a-4675-932c-908f5e90e717
+PUT http://localhost:8080/tasks/98a39c2a-0bd3-46f2-8504-2c386985e5a9
 Content-Type: application/json
 Authorization: Basic vlimass 12345
 
 {
-  "description": "Mudei a descrição"
+  "description": "Mudei a descrição",
+  "title": "Mudei o título"
 }
