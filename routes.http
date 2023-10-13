@@ -20,6 +20,5 @@ Authorization: Basic vlimass 12345
   "title": "Trabalho do Paixão",
   "priority": "ALTA",
   "startAt": "2023-10-13T09:00:00",
-  "endAt": "2023-10-13T12:00:00",
-  "idUser": "8f3517fd-20f6-4ed7-86d4-96dd3718daa4" 
+  "endAt": "2023-10-13T12:00:00" 
 }
