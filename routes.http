@@ -19,6 +19,22 @@ Authorization: Basic vlimass 12345
   "description": "Terminar o trabalho o mais rápido possível",
   "title": "Trabalho do Paixão",
   "priority": "ALTA",
-  "startAt": "2023-10-13T09:00:00",
+  "startAt": "2023-10-13T11:00:00",
   "endAt": "2023-10-13T12:00:00" 
+}
+
+###
+
+GET http://localhost:8080/tasks/
+Content-Type: application/json
+Authorization: Basic vlimass 12345
+
+###
+
+PUT http://localhost:8080/tasks/97c28329-c89a-4675-932c-908f5e90e717
+Content-Type: application/json
+Authorization: Basic vlimass 12345
+
+{
+  "description": "Mudei a descrição"
 }
